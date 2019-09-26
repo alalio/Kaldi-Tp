@@ -1,0 +1,25 @@
+__libc_start_main(0x4025b0, 1, 0x7fff9fa6f038, 0x40e4d0 <unfinished ...>
+strrchr("mkdir", '/')                              = nil
+setlocale(LC_ALL, "")                              = "fr_FR.UTF-8"
+bindtextdomain("coreutils", "/usr/share/locale")   = "/usr/share/locale"
+textdomain("coreutils")                            = "coreutils"
+__cxa_atexit(0x403f80, 0, 0, 0)                    = 0
+getopt_long(1, 0x7fff9fa6f038, "pm:vZ", 0x40eb80, nil) = -1
+dcgettext(0, 0x40eb35, 5, 0)                       = 0x40eb35
+error(0, 0, 0x40eb35, 2)                           = 0
+dcgettext(0, 0x40e600, 5, 0)                       = 0x40e600
+__fprintf_chk(0x7f4bc37b5640, 1, 0x40e600, 0x7fff9fa7137f) = 41
+exit(1 <unfinished ...>
+__fpending(0x7f4bc37b5740, 1, 0x7f4bc37b5df0, 0x7f4bc37b5df0) = 0
+fileno(0x7f4bc37b5740)                             = 1
+__freading(0x7f4bc37b5740, 1, 0x7f4bc37b5df0, 0x7f4bc37b5df0) = 0
+__freading(0x7f4bc37b5740, 1, 4, 0x7f4bc37b5df0)   = 0
+fflush(0x7f4bc37b5740)                             = 0
+fclose(0x7f4bc37b5740)                             = 0
+__fpending(0x7f4bc37b5640, 0, 0x7f4bc37b6970, 0)   = 0
+fileno(0x7f4bc37b5640)                             = 2
+__freading(0x7f4bc37b5640, 0, 0x7f4bc37b6970, 0)   = 0
+__freading(0x7f4bc37b5640, 0, 2052, 0)             = 0
+fflush(0x7f4bc37b5640)                             = 0
+fclose(0x7f4bc37b5640)                             = 0
++++ exited (status 1) +++

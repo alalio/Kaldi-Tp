@@ -1,0 +1,15 @@
+__libc_start_main(0x4019f0, 1, 0x7ffce8ec35e8, 0x408960 <unfinished ...>
+getpagesize()                                      = 4096
+strrchr("cat", '/')                                = nil
+setlocale(LC_ALL, "")                              = "fr_FR.UTF-8"
+bindtextdomain("coreutils", "/usr/share/locale")   = "/usr/share/locale"
+textdomain("coreutils")                            = "coreutils"
+__cxa_atexit(0x402a50, 0, 0, 0x736c6974756572)     = 0
+getopt_long(1, 0x7ffce8ec35e8, "benstuvAET", 0x409080, nil) = -1
+__fxstat(1, 1, 0x7ffce8ec3430)                     = 0
+__fxstat(1, 0, 0x7ffce8ec3430)                     = 0
+posix_fadvise(0, 0, 0, 2)                          = 0
+malloc(135167)                                     = 0x7f8c98dd2010
+read(0 <no return ...>
+--- SIGINT (Interrupt) ---
++++ killed by SIGINT +++

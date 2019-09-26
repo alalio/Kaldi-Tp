@@ -1,0 +1,25 @@
+__libc_start_main(0x401cf0, 1, 0x7ffd2f462158, 0x4091f0 <unfinished ...>
+strrchr("touch", '/')                              = nil
+setlocale(LC_ALL, "")                              = "fr_FR.UTF-8"
+bindtextdomain("coreutils", "/usr/share/locale")   = "/usr/share/locale"
+textdomain("coreutils")                            = "coreutils"
+__cxa_atexit(0x402e40, 0, 0, 0x736c6974756572)     = 0
+getopt_long(1, 0x7ffd2f462158, "acd:fhmr:t:", 0x409c40, nil) = -1
+dcgettext(0, 0x4093e0, 5, 0)                       = 0x4093e0
+error(0, 0, 0x4093e0, 0)                           = 0
+dcgettext(0, 0x409498, 5, 0x7f57b4201490)          = 0x409498
+__fprintf_chk(0x7f57b44cf640, 1, 0x409498, 0x7ffd2f46437b) = 41
+exit(1 <unfinished ...>
+__fpending(0x7f57b44cf740, 1, 0x7f57b44cfdf0, 0x7f57b44cfdf0) = 0
+fileno(0x7f57b44cf740)                             = 1
+__freading(0x7f57b44cf740, 1, 0x7f57b44cfdf0, 0x7f57b44cfdf0) = 0
+__freading(0x7f57b44cf740, 1, 4, 0x7f57b44cfdf0)   = 0
+fflush(0x7f57b44cf740)                             = 0
+fclose(0x7f57b44cf740)                             = 0
+__fpending(0x7f57b44cf640, 0, 0x7f57b44d0970, 0)   = 0
+fileno(0x7f57b44cf640)                             = 2
+__freading(0x7f57b44cf640, 0, 0x7f57b44d0970, 0)   = 0
+__freading(0x7f57b44cf640, 0, 2052, 0)             = 0
+fflush(0x7f57b44cf640)                             = 0
+fclose(0x7f57b44cf640)                             = 0
++++ exited (status 1) +++
